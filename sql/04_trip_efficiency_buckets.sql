@@ -3,7 +3,7 @@
 -- File:     04_trip_efficiency_buckets.sql
 -- Purpose:  Classify trips by fare efficiency (fare per mile)
 --           to identify high value vs loss leader trips
--- Author:   [Your Name]
+-- Author:   Angela
 -- Date:     2026
 -- ============================================================
 
