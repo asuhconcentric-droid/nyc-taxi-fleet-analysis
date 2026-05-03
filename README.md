@@ -33,33 +33,43 @@ analytical workflow across four tools: Excel, SQL, Python, and Looker Studio.
 Trip volume grew 47% and revenue grew 57% from January to March 2022,
 reflecting NYC's post-Omicron rebound.
 
+![Monthly Revenue Trend](https://raw.githubusercontent.com/asuhconcentric-droid/nyc-taxi-fleet-analysis/main/visualizations/monthly_revenue_trend.png)
+
 **2. Airport Zones Dominate Value**
-JFK Airport averages $60.68 per trip vs $15-17 for typical Manhattan zones.
+JFK Airport averages 60.68 per trip vs 15-17 for typical Manhattan zones.
 Queens credit card trips are the single most valuable regular trip type
-at $56.35 avg revenue and $8.47 avg tip.
+at 56.35 avg revenue and 8.47 avg tip.
 
 **3. Manhattan Drives Volume, Queens Drives Value**
-Manhattan accounts for 7.6M trips at $16.94 avg per trip. Queens generates
-635K trips at $52.39 avg — the core operational tension for Borough Cab Co.
+Manhattan accounts for 7.6M trips at 16.94 avg per trip. Queens generates
+635K trips at 52.39 avg — the core operational tension for Borough Cab Co.
+
+![Borough Performance](https://raw.githubusercontent.com/asuhconcentric-droid/nyc-taxi-fleet-analysis/main/visualizations/borough_performance.png)
 
 **4. Peak Demand Window is Thursday-Friday 3pm-6pm**
 Thursday 18:00 is the single busiest hour across Q1 with 101,401 trips.
-5am is the highest value hour at $26.79 avg revenue per trip — likely
+5am is the highest value hour at 26.79 avg revenue per trip — likely
 early airport runs with low competition.
+
+![Demand Heatmap](https://raw.githubusercontent.com/asuhconcentric-droid/nyc-taxi-fleet-analysis/main/visualizations/demand_heatmap.png)
 
 **5. Credit Card Dominates but Cash Usage Varies**
 Credit card accounts for 80%+ of trips in every borough. Cash tips are
 not recorded electronically — all tip analysis reflects credit card
 behavior only.
 
+![Distance vs Tip Scatter](https://raw.githubusercontent.com/asuhconcentric-droid/nyc-taxi-fleet-analysis/main/visualizations/distance_vs_tip_scatter.png)
+
 **6. EWR is the Highest Value Trip Type**
-Newark Airport credit card trips average $107.55 per trip with $15.35
+Newark Airport credit card trips average 107.55 per trip with 15.35
 avg tip — the highest of any borough and payment type combination.
 
 **7. Efficiency Metric Reveals Counterintuitive Finding**
 Fare per mile labels airport runs as Loss Leaders despite earning 3x
 more per trip than High Efficiency short trips. Per mile metrics
 require business context to interpret correctly.
+
+![Fare Distribution](https://raw.githubusercontent.com/asuhconcentric-droid/nyc-taxi-fleet-analysis/main/visualizations/fare_distribution.png)
 
 ---
 
