@@ -123,6 +123,4 @@ revenue charts, payment type breakdown, and interactive pivot heatmap.
 - **Cleaned rows:** 8,454,149 (removed 6.8% with zero fares, zero distance, zero passengers, or invalid timestamps)
 - **Zone lookup:** `bigquery-public-data.new_york_taxi_trips.taxi_zone_geom`
 
----
 
-## Repository Structure
